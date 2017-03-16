@@ -84,7 +84,9 @@ span.phone{
 }
 .first_main{
 	position: relative;
-	background: url(../images/motor2.png) round;
+	background: url(../images/motor2.png) no-repeat 50% 50%;
+	background-size: contain;
+	
 	margin: 3.8% 0 4.6%;
 }
 img.border_big{
@@ -99,7 +101,7 @@ img.big_motor{
 	margin: 16.5% 0 0 7%;
 }
 p.all_brands{
-	font: 27px 'HelveticaNeueCyr-UltraLight',sans-serif;
+	font: 27px 'HelveticaNeueCyr-Light',sans-serif;
 	margin: 0 0 0 7%;
 }
 .col-left, .col-right{
@@ -127,7 +129,7 @@ img.blue_border, img.white_border{
 	margin: 13.5% 0 0 7.5%;
 } 
 .col-left p, .col-right p{
-	font: 24px 'HelveticaNeueCyr-UltraLight',sans-serif;
+	font: 24px 'HelveticaNeueCyr-Light',sans-serif;
 	color: #fff;
 	margin: 0 0 12.8% 7.5%;
 }
@@ -166,7 +168,8 @@ img.blue_border, img.white_border{
 }
 footer{
 	margin-top: 6.3%;
-	background: url(../images/motor.png) round;
+	background: url(../images/motor.png)no-repeat 50%50%;
+	background-size: contain;
 }
 footer p{
 	padding-top: 10%;
