@@ -1,0 +1,341 @@
+/*.container{
+	max-width: 970px;
+	width: 	100%;
+}*/
+p{
+	font: 15px/18px 'HelveticaNeueCyr-Roman',sans-serif;
+	color: #1f2426;
+}															
+header{
+	background: url(../images/img1.png);
+}
+header img.logo{
+	margin-top: 10%;
+	margin-left: 	39%;
+}
+button.mini{
+	background-color: #ddd;
+	margin-top: -3%;
+}
+.icon-bar {
+    background-color: #888;
+}
+header .navigation{
+	list-style: none;
+	padding-left: 9.5%;
+}
+header .navigation li{
+	display: inline-block;
+	margin-right: 4.6%;
+}
+header .navigation a{
+	display: block;
+	font: 12px 'HelveticaNeueCyr-Medium', sans-serif;
+	padding: 15% 0%;
+	margin-top: 7%;
+	color: 	#fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+}
+header .navigation li:nth-child(2) a,header .navigation li:nth-child(5){
+	margin-top: 0;
+}
+header .navigation a:hover, header .navigation a:focus{
+	text-decoration: none;
+	color: #337ab7;	
+}
+/*-----main-----*/
+main{
+	background: #fff;
+}
+.top_main{
+	margin-top: 4.1%;
+}
+img.img_2{
+	float: left;
+	margin: 0 3.9% 0 22.3%;
+}
+p.autocenter{
+	margin-top: 1.9%;
+}
+img.rectangle{
+	position: absolute;
+	left: 10%;
+}
+p.work_time1{
+	margin-left: 16%;
+}
+p.code_phone{
+	margin: 6% 0 0 -10%;
+}
+span.work_time, span.code, span.phone, p.code_phone1{
+	font-family: 'HelveticaNeueCyr-Bold',sans-serif;
+}
+span.code, p .code_phone1{
+	font-size: 20px;
+}
+span.phone{
+	padding-top: 0.6%;
+	padding-right: 28%;
+	display: inline-block;
+	float: right;
+	font-size: 27px;
+}
+.first_main{
+	position: relative;
+	background: url(../images/motor2.png) round;
+	margin: 3.8% 0 4.6%;
+}
+img.border_big{
+	position: absolute;
+	left: 22.5%
+}
+img.big_motor{
+	margin: 7.3% 0 0 16.2%;
+}
+.first_main h1{
+	font: 48px 'HelveticaNeueCyr-Bold',sans-serif;
+	margin: 16.5% 0 0 7%;
+}
+p.all_brands{
+	font: 27px 'HelveticaNeueCyr-UltraLight',sans-serif;
+	margin: 0 0 0 7%;
+}
+.col-left, .col-right{
+	max-width: 480px;
+	width: 100%;
+	position: relative;
+} 
+.col-left{
+	background: url(../images/bg_black.png);
+	margin-left: 1.7%;
+}
+.col-right{
+	background: url(../images/bg_blue.png);
+}
+img.blue_border, img.white_border{
+	position: absolute;
+	left: 19.4%;
+	top: 18%;
+}
+.col-left h2, .col-right h2, .bottom_main h2{
+	font: 27px 'HelveticaNeueCyr-Bold',sans-serif;
+	}
+.col-left h2, .col-right h2{
+	color: #fff;
+	margin: 13.5% 0 0 7.5%;
+} 
+.col-left p, .col-right p{
+	font: 24px 'HelveticaNeueCyr-UltraLight',sans-serif;
+	color: #fff;
+	margin: 0 0 12.8% 7.5%;
+}
+.menu{
+	list-style: none;
+	border: 4px solid #1d8bc2;
+	margin: 13.4% 0 0 1%;
+	padding: 12% 6% 12% 13%;
+}
+.menu li{ 	
+	margin-bottom: 11%;
+	font: 13px 'HelveticaNeueCyr-Medium', sans-serif;
+	text-transform: uppercase;
+}
+.menu li:last-child{
+	margin-bottom: 0;
+}
+.bottom_main h2{
+	margin: 7.3% 0  2.8% 0;
+}
+.bottom_main p{
+	line-height: 20px;
+}
+.months{
+ margin: 4% 0;
+}
+.img3{
+	display: inline-block;
+}
+.guarantee{
+	font: 24px 'HelveticaNeueCyr-Light', sans-serif;
+	border: 2px solid #ced6d9;
+	border-left: 0;
+	margin-left: -0.6%;
+	padding: 1.9% 11% 3.3%;
+}
+footer{
+	margin-top: 6.3%;
+	background: url(../images/motor.png) round;
+}
+footer p{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+p.code_phone1{
+	font-size: 20px;
+	margin-left: 15%;
+}
+@media (min-width: 1200px){
+	.menu{
+		max-width: 300px;
+	}
+	.about_us{
+		margin-left: -3.2%;
+		max-width: 648px
+	}
+}
+@media (max-width: 1199px){
+	img.rectangle {
+    left: 7%;
+}
+	p.code_phone{
+		margin-left: -3%;
+	}
+	span.phone{
+		padding-right: 9%;
+	}
+	img.border_big {
+		left: 11.8%;
+	}
+	.first_main h1, p.all_brands{
+		margin-left: 19%;
+	}
+	.col-left, .col-right{
+		max-width: 445px;
+	}
+	.col-left {
+		margin-left: 4.4%;
+	}
+	img.blue_border, img.white_border {
+    left: 13.4%;
+  }
+}
+@media (max-width: 991px){
+	header img.logo {
+    margin-top: 17%;
+    margin-left: 0;
+  }
+  p{
+  	font-size: 12px;
+  }
+  span.code{
+  	font-size: 17px;
+  }
+  span.phone, .col-left h2, .col-right h2{
+   font-size: 24px;
+  }
+ 
+  img.img_2 {
+  	margin-left: -5.7%;
+  }
+  img.rectangle {
+		left: 3%;
+	}
+	p.code_phone {
+    margin-left: 11%;
+  }
+  img.border_big {
+  	left: 0%;
+  }
+  img.big_motor{
+  	margin-left: 3.5%;
+  	margin-top: 12%;
+  }
+  .first_main{
+  	margin-bottom: 9.6%;
+  }
+  .first_main h1, p.all_brands {
+    margin-left: 13%;
+}
+  .first_main h1{
+  	margin-top: 25%;
+  	font-size: 36px;
+  }
+  p.all_brands, .col-left p, .col-right p{
+  	font-size: 20px;
+  }
+  .col-left, .col-right {
+    max-width: 368px;
+    width: 100%;
+  }
+  .col-left{
+  	margin-left: 0;
+  }
+  img.blue_border, img.white_border {
+    left: 2.4%;
+  }
+  .col-left h2, .col-right h2{
+  	margin-top: 16.5%;
+  }
+  .guarantee {
+  	font-size: 16px;
+  	padding: 4.5% 8% 6%;
+  }
+  p.code_phone1{
+  	margin-left: 0;
+  }
+}
+@media (min-width: 768px){
+	.navbar-collapse {
+    width: 75%;
+  }
+}
+@media (max-width: 767px){
+	header img.logo {
+		margin:6% 0;
+  }
+  header .navigation {
+		padding-left: 0;
+	}
+	.first_main h1 {
+    margin-top: 7%;
+    font-size: 33px;
+}
+	.menu{
+		margin-top:	0;
+		margin-left: 0;
+		padding: 2% 0% 0% 7%;
+	}
+	.menu li {
+		display: inline-block;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    font-size: 11px;
+  }
+  .menu li:last-child {
+    margin-bottom: 3%;
+}
+	p.autocenter, p.work_time1,p.code_phone{
+		text-align: center;	
+	}
+	 p.work_time1,p.code_phone{
+	 	margin-left: 0;
+	 }
+	.months{
+		text-align: center;
+	}
+	.guarantee {
+		margin-left: 	0;
+		padding: 3% 2%;
+		border-left: 2px solid #ced6d9;
+	}
+	footer p{
+		padding-top: 0;
+		padding-bottom: 0; 
+		text-align: center;
+	}
+	p.code_phone1{
+		font-size:17px; 
+	}
+	span.phone{
+		font-size: 22px;
+    float: none;
+    padding-right: 0;
+	}
+}
+@media (max-width: 425px){
+	.menu{
+		padding-left: 	12%;
+	}
+}
